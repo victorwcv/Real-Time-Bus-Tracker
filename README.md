@@ -1,5 +1,9 @@
 # Real-Time-Bus-Tracker
 
-<img src='/img_1.jpg' width='400px'>
+## Imagen 1.
 
-<img src='/img_0.jpg'>
+<img src="img_1.jpg" width='400px'/>
+
+## Imagen 2.
+
+<img src="img_0.jpg" width='400px'/>
