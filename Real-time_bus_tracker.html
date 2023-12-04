@@ -28,8 +28,12 @@
 
       button {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-		font-size: 2em;
-        background: linear-gradient(to bottom, rgb(235, 74, 119), rgb(176,4,52));
+        font-size: 2em;
+        background: linear-gradient(
+          to bottom,
+          rgb(235, 74, 119),
+          rgb(176, 4, 52)
+        );
         color: whitesmoke;
         border-radius: 5px;
         padding: 5px;
@@ -43,24 +47,24 @@
 
       #button:active {
         box-shadow: none;
-        background: linear-gradient(to top,rgb(176,4,52), rgb(235, 74, 119));
+        background: linear-gradient(to top, rgb(176, 4, 52), rgb(235, 74, 119));
         transition: ease 0.5s;
       }
 
-	  #button:disabled {
-		background: #6c6b6b;
-		color: #999999;
-		cursor: not-allowed; 
-		box-shadow: none;
-
-		}
-	  
+      #button:disabled {
+        background: #6c6b6b;
+        color: #999999;
+        cursor: not-allowed;
+        box-shadow: none;
+      }
     </style>
   </head>
   <body>
     <div id="map"></div>
     <div class="map-overlay top">
-      <button id="button" onclick="run(); deshabilitarBoton()">Start Tracking</button>
+      <button id="button" onclick="run(); deshabilitarBoton()">
+        Start Tracking
+      </button>
     </div>
 
     <script>
