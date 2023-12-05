@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Time Bus Tracker</title>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="map-overlay top">
+      <button id="button" onclick="run(); deshabilitarBoton()">
+        Start Tracking
+      </button>
+    </div>
+    <script src="/mapanimation.js"></script>
+  </body>
+</html>
